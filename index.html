@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <div class="card-top">
+                <span class="heading second-heading">Task List</span>
+               <form action="#" id="form1" class="formhook">
+                    <div class="input-container">
+                        <input type="text" class="register" id="task">
+                        <label for="task">New Task</label>  
+                    </div>
+                    <div class="btn-container">
+                        <input type="submit" value="Add Task" class="btn btn-lg">
+                    </div>
+               </form>
+            </div>
+            <div class="card-top">
+                <span class="heading second-heading">Filter and Edit</span>
+               <form action="#" id="form2" class="formhook">
+                    <div class="input-container">
+                        <input type="text" class="register" id="task1">
+                        <label for="task1">New Task</label>
+                    </div>
+                    <div class="btn-container">
+                        <input type="submit" value="Save Edits" class="btn btn-lg black">
+                    </div>
+               </form>
+            </div>
+            <div class="card-bottom">
+                <span class="heading second-heading">Tasks</span>
+                <ul class="collection">
+                </ul>
+                <div class="btn-container1">
+                    <input type="button" class="btn btn-xl black clear-btn" value="Clear Tasks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
